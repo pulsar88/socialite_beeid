@@ -1,0 +1,19 @@
+{
+    "name": "user/bee-id",
+    "description": "package for authorization via Bee-id",
+    "require": {
+        "laravel/socialite": "^5.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fillincode\\BeeId\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fillincode",
+            "email": "info@1rank.ru"
+        }
+    ]
+}

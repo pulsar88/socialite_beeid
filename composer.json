@@ -1,5 +1,5 @@
 {
-    "name": "fillincode/bee-id,",
+    "name": "fillincode/bee-id",
     "description": "package for authorization via Bee-id",
     "require": {
         "laravel/socialite": "^5.8"

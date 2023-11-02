@@ -2,7 +2,6 @@
 
 namespace Fillincode\BeeId;
 
-use Fillicode\BeeId\Driver;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Socialite\Contracts\Factory;
 

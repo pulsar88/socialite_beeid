@@ -17,7 +17,7 @@ class BeeIdServiceProvider extends ServiceProvider
         $socialite = $this->app->make(Factory::class);
 
         $socialite->extend('bee_id', function () use ($socialite) {
-            return $socialite->buildProvider(Driver::class, config('services.bee_id'));
+            return $socialite->buildProvider(Driver::class, config('services.beeId'));
         });
     }
 }

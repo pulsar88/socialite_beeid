@@ -40,7 +40,7 @@ class Driver extends AbstractProvider
      * Returns the authorized user
      *
      * @param $token
-     * @return array|mixed
+     * @return mixed
      * @throws GuzzleException
      */
     protected function getUserByToken($token): mixed
@@ -54,9 +54,7 @@ class Driver extends AbstractProvider
             ]
         );
 
-        $response = json_decode($response->getBody(), true);
-
-        return $response['data']['user'];
+        return json_decode($response->getBody(), true);
     }
 
     /**
@@ -70,9 +68,7 @@ class Driver extends AbstractProvider
         return (new User())->setRaw($user)->map([
             'id' => $user['id'],
             'name' => $user['name'],
-            'post' => $user['post'],
             'email' => $user['email'],
-            'phone' => $user['phone'],
         ]);
     }
 

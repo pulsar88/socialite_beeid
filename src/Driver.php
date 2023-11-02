@@ -1,6 +1,6 @@
 <?php
 
-namespace Fillicode\BeeId;
+namespace Fillincode\BeeId;
 
 use GuzzleHttp\Exception\GuzzleException;
 use Laravel\Socialite\Two\AbstractProvider;

@@ -6,7 +6,7 @@ use GuzzleHttp\Exception\GuzzleException;
 use Laravel\Socialite\Two\AbstractProvider;
 use Laravel\Socialite\Two\User;
 
-class Provider extends AbstractProvider
+class Driver extends AbstractProvider
 {
     /**
      * bee-id site url

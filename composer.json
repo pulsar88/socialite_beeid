@@ -15,5 +15,12 @@
             "name": "Fillincode",
             "email": "info@1rank.ru"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fillincode\\BeeId\\BeeIdServiceProvider"
+            ]
+        }
+    }
 }

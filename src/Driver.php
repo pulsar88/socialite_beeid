@@ -13,7 +13,7 @@ class Driver extends AbstractProvider
      *
      * @var string
      */
-    protected string $authUrlSite = 'https://bee-id.ru';
+    protected string $authUrlSite = 'http://id.bee-online.ru';
 
     /**
      * Returns the url for obtaining authorization

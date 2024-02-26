@@ -4,7 +4,6 @@ namespace Fillincode\BeeId;
 
 use GuzzleHttp\Exception\GuzzleException;
 use Laravel\Socialite\Two\AbstractProvider;
-use Laravel\Socialite\Two\User;
 
 class Driver extends AbstractProvider
 {

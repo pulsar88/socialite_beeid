@@ -2,7 +2,7 @@
 
 namespace Fillincode\BeeId;
 
-class User extends Laravel\Socialite\Two\User
+class User extends \Laravel\Socialite\Two\User
 {
     /**
      * Хеш пароля

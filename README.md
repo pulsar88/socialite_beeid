@@ -30,7 +30,7 @@ composer require fillincode/bee-id
     });
     
     Route::get('/auth/callback', function () {
-        /** @var Fillincode\BeeId\User $user */
+        /** @var \Fillincode\BeeId\User $user */
         $user = Socialite::driver('bee_id')->user();
     
         // $user->token

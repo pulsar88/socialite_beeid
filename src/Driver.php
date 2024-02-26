@@ -67,8 +67,8 @@ class Driver extends AbstractProvider
         return (new User())->setRaw($user)->map([
             'id' => $user['id'],
             'name' => $user['name'],
-	    'email' => $user['email'],
-	    'pass_hash' => $user['pass_hash']
+            'email' => $user['email'],
+            'pass_hash' => $user['pass_hash']
         ]);
     }
 
